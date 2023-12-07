@@ -20,5 +20,5 @@ struct Product: Codable, Identifiable {
     var green: Double { return color[1] }
     var blue: Double { return color[2] }
 
-    var formattedPrice: String { return "S\(price)" }
+    var formattedPrice: String { return "$\(price)" }
 }
